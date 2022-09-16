@@ -10,4 +10,5 @@ homepage = "https://github.com/ctz/ct-logs"
 repository = "https://github.com/ctz/ct-logs"
 
 [dependencies]
-sct = "0.7.0"
+# sct = "0.7.0"
+sct = { git = "https://github.com/esamudera/sct.rs.git", branch = "disable_eaed_hash_check" }
